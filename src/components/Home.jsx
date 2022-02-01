@@ -4,27 +4,35 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const Home = () => {
   return (
-    <Container className="pt-20 pb-20">
-      <div className="text-gray-300 leading-10 font-semibold font-mono">
+    <Container className="pt-20 pb-20 h-screen">
+      <div className="text-gray-300 leading-10 font-semibold font-mono ml-5 mr-5">
         <div className="">
           <div className="text-green-500 text-lg">Hi, my name is</div>
           <div>
-            <div className="text-6xl mt-2">Olamide Faniyan</div>
-            <div className="text-5xl pt-5 font-semibold text-gray-200">
+            <div className="md:text-6xl text-4xl mt-2 text-slate-100">
+              Olamide Faniyan
+            </div>
+            <div className="md:text-5xl text-4xl pt-2 font-bold text-zinc-500">
               I build strong websites{" "}
             </div>
-            <div className="text-2xl pt-5">I'm a Front End Developer </div>
+            <div className="md:text-2xl text-lg pt-5">
+              I'm a Front End Developer{" "}
+            </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-20">
             <Button
+              size="large"
               variant="outlined"
               style={{
                 color: "lightgreen",
                 borderColor: "darkgreen",
                 borderWidth: 3,
+                width: 200,
+                height: 70,
               }}
             >
-              Learn more <KeyboardArrowDownIcon style={{ marginLeft: 2 }} />
+              Learn more{" "}
+              <KeyboardArrowDownIcon style={{ marginLeft: 2, fontSize: 30 }} />
             </Button>
           </div>
         </div>
