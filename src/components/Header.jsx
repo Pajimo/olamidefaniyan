@@ -13,28 +13,28 @@ const Header = () => {
               <div className="hidden md:block">
                 <div className="ml-10 space-x-6">
                   <a
-                    href="#"
+                    href="#home"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                   >
                     Home
                   </a>
 
                   <a
-                    href="#"
+                    href="#about"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                   >
                     About
                   </a>
 
                   <a
-                    href="#"
+                    href="#portfolio"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                   >
-                    Projects
+                    Portfolio
                   </a>
 
                   <a
-                    href="#"
+                    href="#contact"
                     className="hover:border-b-2 border-green-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Contact

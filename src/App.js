@@ -17,10 +17,10 @@ function App() {
     <div>
       <div className="bg-gray-800 relative pb-10">
         <Header />
-        <Home />
-        <About />
-        <Portfolio />
-        <Contact />
+        <Home id="home"/>
+        <About id="about"/>
+        <Portfolio id="portfolio"/>
+        <Contact id="contact"/>
         <div class="md:fixed md:bottom-0 md:left-0 text-white md:m-5 ">
           <div className=" flex md:flex-col space-y-6 md:visible invisible">
             <a href="https://github.com/Pajimo" _target>
