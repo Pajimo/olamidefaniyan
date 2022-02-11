@@ -13,7 +13,7 @@ const Home = () => {
               Olamide Faniyan
             </div>
             <div className="md:text-5xl text-4xl pt-2 font-bold text-zinc-500">
-              I build strong websites{" "}
+              I build <i>inviolable</i> websites{" "}
             </div>
             <div className="md:text-2xl text-lg pt-5">
               I'm a Front End Developer{" "}

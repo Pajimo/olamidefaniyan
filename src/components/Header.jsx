@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Container from "@mui/material/Container";
 import { Transition } from "@headlessui/react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,33 +13,27 @@ const Header = () => {
             <div className="flex ">
               <div className="hidden md:block">
                 <div className="ml-10 space-x-6">
-                  <a
-                    href="#home"
+                  <Link
+                    to="/"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#about"
+                  <Link
+                    to='/about'
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                   >
                     About
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#portfolio"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
-                  >
-                    Portfolio
-                  </a>
 
-                  <a
-                    href="#contact"
+                  <Link
+                    to='/contact'
                     className="hover:border-b-2 border-green-500 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,33 +96,26 @@ const Header = () => {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                 >
                   Home
-                </a>
+                </Link>
 
-                <a
-                  href="#"
+                <Link
+                  to='/about'
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                 >
                   About
-                </a>
+                </Link>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
-                >
-                  Projects
-                </a>
-
-                <a
-                  href="#"
+                <Link
+                  to='/contact'
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           )}
