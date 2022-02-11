@@ -11,6 +11,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import { Route, Routes } from "react-router";
 import ErrorPage from './components/ErrorPage';
+import Footer from './components/Footer'
 
 // ATTENTION!!!!!!!!!!
 
@@ -18,13 +19,15 @@ function App() {
   return (
     <div>
       <div className="bg-gray-800 relative pb-10">
-        <Header />
+        <div className="sm:ml-10 sm:mr-10"><Header />
         <Routes>
           <Route path="/" element={<div><Home /> <Portfolio /></div>} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
-        </Routes>
+        </Routes></div>
+        <Footer />
+        
         <div class="md:fixed md:bottom-0 md:left-0 text-white md:m-5 ">
           <div className=" flex md:flex-col space-y-6 md:visible invisible">
             <a href="https://github.com/Pajimo" _target>

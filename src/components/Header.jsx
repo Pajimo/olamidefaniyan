@@ -15,9 +15,9 @@ const Header = () => {
                 <div className="ml-10 space-x-6">
                   <Link
                     to="/"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-lg font-bold hover:border-b-2 border-green-500"
                   >
-                    Home
+                    Olamide Faniyan 
                   </Link>
 
                   <Link
@@ -100,7 +100,7 @@ const Header = () => {
                   to="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium hover:border-b-2 border-green-500"
                 >
-                  Home
+                  Olamide Faniyan
                 </Link>
 
                 <Link

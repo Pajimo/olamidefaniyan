@@ -8,8 +8,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Portfolio = () => {
   const [item, setItem] = useState(data);
   return (
-    <Container className="mt-20 font-mono border-t border-emerald-400">
-      <header className=" text-4xl text-gray-300 text-center mt-20 mb-20">
+    <Container className="mt-20 font-mono">
+      <header className=" text-5xl text-gray-300 text-center mt-20 mb-20 font-bold">
         Portfolio
       </header>
       <div>

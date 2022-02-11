@@ -15,11 +15,11 @@ const Home = () => {
             <div className="md:text-5xl text-4xl pt-2 font-bold text-zinc-500">
               I build <i>inviolable</i> websites{" "}
             </div>
-            <div className="md:text-2xl text-lg pt-5">
+            <div className="md:text-2xl text-lg pt-5 mt-20">
               I'm a Front End Developer{" "}
             </div>
           </div>
-          <div className="mt-20">
+          <div className="mt-5">
             <Button
               size="large"
               variant="outlined"

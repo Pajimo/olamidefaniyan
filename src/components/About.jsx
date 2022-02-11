@@ -9,10 +9,10 @@ import cv from "../documents/OlamideFaniyan-cv.pdf";
 const About = () => {
   return (
     <div className="ml-2 mr-2">
-      <Container className="font-mono border-t border-emerald-400 shadow-inner">
+      <Container className="font-mono shadow-inner">
         <div>
-          <header className=" text-4xl text-gray-300 text-center mt-20">
-            About me
+          <header className=" text-4xl text-gray-300 text-center mt-20 border-b-4 border-emerald-400">
+            About Me
           </header>
           <div>
             <div className="grid grid-cols-1 md:grid-cols-2 text-zinc-400 font-semibold text-lg md:text-2xl mt-20">
@@ -129,17 +129,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <div className="brightness-50 flex justify-center">
-                  <img
-                    src={profilePicture}
-                    className="h-96 outline-double outline-offset-4 outline-4  rounded-full"
-                  />
-                </div>
-                <div className="text-green-500">
-                  <ProfileLinks />
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
