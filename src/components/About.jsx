@@ -11,11 +11,11 @@ const About = () => {
     <div className="ml-2 mr-2">
       <Container className="font-mono shadow-inner">
         <div>
-          <header className=" text-4xl text-gray-300 text-center mt-20 border-b-4 border-emerald-400">
+          <header className=" text-5xl text-gray-300 text-center mt-10 font-bold">
             About Me
           </header>
-          <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 text-zinc-400 font-semibold text-lg md:text-2xl mt-20">
+          <div className="border-t-4 border-emerald-400 mt-5">
+            <div className="text-zinc-400 font-semibold text-lg md:text-2xl mt-20 ">
               <div>
                 <p className="leading-9">
                   Hello my name is Olamide. I'm an aspiring Junior Front-End
@@ -122,7 +122,16 @@ const About = () => {
                               color: "lightgreen",
                             }}
                           />
-                          Apollo (GraphQl)
+                          Apollo-client
+                        </div>
+                        <div>
+                          {" "}
+                          <ArrowRightIcon
+                            style={{
+                              color: "lightgreen",
+                            }}
+                          />
+                          GraphQL
                         </div>
                       </div>
                     </div>

@@ -12,7 +12,6 @@ const Contact = () => {
           any of the following below
         </div>
         <ProfileLinks />
-        <p className="text-xl mt-20">Designed, Built by Olamide Faniyan </p>
       </Container>
     </div>
   );

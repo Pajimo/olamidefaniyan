@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Portfolio from './portfoilio'
 
 const Home = () => {
   return (
@@ -15,11 +16,13 @@ const Home = () => {
             <div className="md:text-5xl text-4xl pt-2 font-bold text-zinc-500">
               I build <i>inviolable</i> websites{" "}
             </div>
-            <div className="md:text-2xl text-lg pt-5 mt-20">
+            <div className="md:text-2xl text-lg pt-5 mt-20 mb-5">
               I'm a Front End Developer{" "}
             </div>
           </div>
-          <div className="mt-5">
+          <a 
+          href={Portfolio}
+          className="mt-10 mt-5">
             <Button
               size="large"
               variant="outlined"
@@ -34,7 +37,7 @@ const Home = () => {
               Learn more{" "}
               <KeyboardArrowDownIcon style={{ marginLeft: 2, fontSize: 30 }} />
             </Button>
-          </div>
+          </a>
         </div>
       </div>
     </Container>
