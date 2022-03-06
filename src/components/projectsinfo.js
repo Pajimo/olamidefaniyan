@@ -2,6 +2,15 @@ import "../assets/animazone.PNG";
 export const data = [
   {
     id: 1,
+    image: "https://res.cloudinary.com/pajimo/image/upload/v1646546933/mighty-url.png",
+    title: "A URL Shortner",
+    desc:"",
+    stack: ["React.js", "Firebase", "Vite.js", "Tailwind CSS"],
+    site: "https://mighty-url-shortner.web.app",
+    git: ""
+  },
+  {
+    id: 1,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684925/animazone.png",
     title: "Animazone for wild animals",
