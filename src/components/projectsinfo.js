@@ -5,7 +5,7 @@ export const data = [
     image: "https://res.cloudinary.com/pajimo/image/upload/v1646546933/mighty-url.png",
     title: "A URL Shortner",
     desc:"",
-    stack: ["React.js", "Firebase", "Vite.js", "Tailwind CSS"],
+    stack: ["React.js", "Firebase", "Tailwind CSS"],
     site: "https://mighty-url-shortner.web.app",
     git: ""
   },
