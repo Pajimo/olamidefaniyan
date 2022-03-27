@@ -2,15 +2,24 @@ import "../assets/animazone.PNG";
 export const data = [
   {
     id: 1,
+    image: "https://res.cloudinary.com/pajimo/image/upload/v1648379503/seriespurge.png",
+    title: "A TV-Series App - Series Purge",
+    desc:"",
+    stack: ['Next.js', 'Tailwind CSS', 'Firebase Auth and Firestore'],
+    site: 'https://series-purge.vercel.app/',
+    git: 'https://github.com/Pajimo/series-purge'
+  },
+  {
+    id: 2,
     image: "https://res.cloudinary.com/pajimo/image/upload/v1646546933/mighty-url.png",
     title: "A URL Shortner",
     desc:"",
     stack: ["React.js", "Firebase", "Tailwind CSS"],
     site: "https://mighty-url-shortner.web.app",
-    git: ""
+    git: "https://github.com/Pajimo/mighty-url"
   },
   {
-    id: 2,
+    id: 3,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684925/animazone.png",
     title: "Animazone for wild animals",
@@ -20,7 +29,7 @@ export const data = [
     git: "https://github.com/Pajimo/animazone-react-graphql",
   },
   {
-    id: 3,
+    id: 4,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684929/zillow-clone.png",
     title: "Zillow-homepage Clone",
@@ -30,7 +39,7 @@ export const data = [
     git: "https://github.com/Pajimo/Zillow-homepage-clone-React",
   },
   {
-    id: 4,
+    id: 5,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684923/mighty-restaurant.png",
     title: "A restaurnt menu website",
