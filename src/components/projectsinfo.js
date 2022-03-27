@@ -5,7 +5,7 @@ export const data = [
     image: "https://res.cloudinary.com/pajimo/image/upload/v1648379503/seriespurge.png",
     title: "A TV-Series App - Series Purge",
     desc:"",
-    stack: ['Next.js', 'Tailwind CSS', 'Firebase Auth and Firestore'],
+    stack: ['Next.js & TMDB-API', 'Tailwind CSS', 'Firebase Auth and Firestore'],
     site: 'https://series-purge.vercel.app/',
     git: 'https://github.com/Pajimo/series-purge'
   },
