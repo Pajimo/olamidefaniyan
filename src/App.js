@@ -12,8 +12,13 @@ import EmailIcon from "@mui/icons-material/Email";
 import { Route, Routes } from "react-router";
 import ErrorPage from './components/ErrorPage';
 import Footer from './components/Footer'
+import ReactGA from 'react-ga'
 
 // ATTENTION!!!!!!!!!!
+const location = useLocation();
+const TRACKING_ID = "UA-134622467-3"
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(location.pathname + location.search);
 
 function App() {
   return (
