@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import ProfileLinks from "./links";
 import profilePicture from "../assets/profile.jpg";
-import cv from "../documents/OlamideFaniyan-cv.pdf";
+import cv from "../documents/Olamide_Faniyan_CV.pdf";
 
 const About = () => {
   return (
