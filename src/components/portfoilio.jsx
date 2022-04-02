@@ -8,8 +8,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Portfolio = () => {
   const [item, setItem] = useState(data);
   return (
-    <Container id='portfolio' className="mt-20 font-mono">
-      <header className=" text-5xl text-gray-300 text-center mt-20 mb-20 font-bold">
+    <Container id='portfolio' className="pt-5 font-mono">
+      <header className=" text-5xl text-black text-center mt-20 mb-20 font-bold">
         Portfolio
       </header>
       <div>
@@ -17,33 +17,19 @@ const Portfolio = () => {
           const { id, image, title, desc, stack, site, git } = item;
           return (
             <div key={id}>
-              <div className="relative md:w-2/3 md:h-96">
-                <img src={image} className=" md:mb-10" />
-                <div className="bg-gray-600 w-auto h-auto md:h-60 p-5 mb-10 md:absolute md:bottom-0 md:right-0">
-                  <div className="mb-5 space-x-5 text-white">
-                    <p className=" text-xl text-white">{title}</p>
-                    <div>
-                      <a href={site} className="flex items-center space-x-5">
-                        {" "}
-                        <InfoOutlinedIcon style={{ fontSize: 40 }} />
-                        <p>View Website</p>
-                      </a>
-                    </div>
-                    <div>
-                      <a href={git} className="flex items-center space-x-5">
-                        {" "}
-                        <GitHubIcon style={{ fontSize: 40 }} />
-                        <p>View source code</p>
-                      </a>
-                    </div>
+              <div className=" md:h-96 md:flex md:flex-row items-center mb-10 bg-slate-50 shadow-2xl text-black">
+                <img src={image} className="md:w-1/2 h-full object-contain object-cover" />
+                <div className=" md:h-60 p-5 w-full">
+                  <div className="mb-5 space-x-5">
+                    <p className=" text-2xl font-bold">{title}</p>
                   </div>
 
                   <div>
-                    <div className="text-center text-base text-white">
+                    <div className="text-center text-base">
                       {desc}
                     </div>
                     <div className="mt-5">
-                      <p className="text-base text-white">
+                      <p className="text-base">
                         <ArrowRightIcon
                           style={{
                             color: "lightgreen",
@@ -51,7 +37,7 @@ const Portfolio = () => {
                         />{" "}
                         {stack[0]}
                       </p>
-                      <p className="text-base text-white">
+                      <p className="text-base">
                         <ArrowRightIcon
                           style={{
                             color: "lightgreen",
@@ -59,7 +45,7 @@ const Portfolio = () => {
                         />{" "}
                         {stack[1]}
                       </p>
-                      <p className="text-base text-white">
+                      <p className="text-base">
                         <ArrowRightIcon
                           style={{
                             color: "lightgreen",
@@ -69,6 +55,20 @@ const Portfolio = () => {
                       </p>
                     </div>
                   </div>
+                  <div className="flex font-semibold pt-10 text-white">
+                      <div>
+                        <a href={site} target="_blank" className="space-x-5 mr-5">
+                          {" "}
+                          <button className='p-3 bg-black rounded-lg'>View Website</button>
+                        </a>
+                      </div>
+                      <div>
+                        <a href={git} target="_blank" className="space-x-5">
+                          {" "}
+                          <button className='p-3 bg-black rounded-lg'>View source code</button>
+                        </a>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>

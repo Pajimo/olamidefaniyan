@@ -12,13 +12,14 @@ import EmailIcon from "@mui/icons-material/Email";
 import { Route, Routes } from "react-router";
 import ErrorPage from './components/ErrorPage';
 import Footer from './components/Footer'
+import {app, database} from './firebaseconfig'
 
 // ATTENTION!!!!!!!!!!
 
 function App() {
   return (
     <div>
-      <div className="bg-gray-800 relative pb-10">
+      <div className="relative pb-10">
         <div className="sm:ml-10 sm:mr-10"><Header />
         <Routes>
           <Route path="/" element={<div><Home /> <Portfolio /></div>} />
@@ -28,7 +29,7 @@ function App() {
         </Routes></div>
         <Footer />
         
-        <div className="md:fixed md:bottom-20 md:left-0 text-white md:m-5 ">
+        <div className="md:fixed md:bottom-20 md:left-0 text-black md:m-5 ">
           <div className=" flex md:flex-col space-y-6 md:visible invisible">
             <a href="https://github.com/Pajimo" target="_blank">
               <GitHubIcon style={{ fontSize: 25 }} />

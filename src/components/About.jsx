@@ -9,18 +9,21 @@ import cv from "../documents/Olamide_Faniyan_CV.pdf";
 const About = () => {
   return (
     <div className="ml-2 mr-2">
-      <Container className="font-mono shadow-inner">
+      <Container className="font-mono">
         <div>
-          <header className=" text-5xl text-gray-300 text-center mt-10 font-bold">
+          <header className=" text-5xl text-black text-center font-bold">
             About Me
           </header>
-          <div className="border-t-4 border-emerald-400 mt-5">
-            <div className="text-zinc-400 font-semibold text-lg md:text-2xl mt-20 ">
+          <div className="mt-5">
+            <div className="text-zinc-600 font-semibold text-lg md:text-2xl mt-20 ">
               <div>
                 <div className="leading-9">
-                  Hello my name is Olamide. I'm an aspiring Junior Front-End
-                  Developer, Started coding 2016 and ever since I have invested
-                  in my goal to become a Software Developer.<br></br>
+                I am a front end developer with thorough knowledge of React, I have a created projects to showcase my react and 
+                web development skills, I am currently searching for a junior front end role.<br></br> <br></br> I am also interested in React Native for mobile development. 
+
+                I am really passionate about tech, which is why I have the determination to learn as much as possible 
+                and develop myself technically as well as my soft skills.
+                <br></br>
                   <br></br>
                   <p> I enjoy building with codes and playing chess.</p>
                 </div>
@@ -35,8 +38,8 @@ const About = () => {
                       size="large"
                       variant="outlined"
                       style={{
-                        color: "lightgreen",
-                        borderColor: "darkgreen",
+                        color: "black",
+                        borderColor: "black",
                         borderWidth: 3,
                         width: 200,
                         height: 70,
@@ -53,7 +56,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Javascript (ES6+)
@@ -62,7 +65,7 @@ const About = () => {
                           {" "}
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Reactjs
@@ -70,7 +73,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Nextjs
@@ -78,7 +81,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Tailwind CSS
@@ -86,7 +89,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Material UI
@@ -94,7 +97,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Git / GitHub
@@ -102,7 +105,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Firebase
@@ -118,7 +121,7 @@ const About = () => {
                         <div>
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Python
@@ -127,7 +130,7 @@ const About = () => {
                           {" "}
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           Apollo-client
@@ -136,7 +139,7 @@ const About = () => {
                           {" "}
                           <ArrowRightIcon
                             style={{
-                              color: "lightgreen",
+                              color: "black",
                             }}
                           />
                           GraphQL

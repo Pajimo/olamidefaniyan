@@ -1,16 +1,17 @@
 import Container from "@mui/material/Container";
 import ProfileLinks from "./links";
+import Form from "./forms";
 
 const Contact = () => {
   return (
     <div>
-      <Container className="text-center font-mono ml-2 mr-2 text-gray-300 h-screen">
-        <div className="text-5xl text-gray-300 text-center mt-10 font-bold">Contact</div>
-        <div className="text-green-500 text-2xl mt-5 border-t-4 border-emerald-400 pt-20">What's Next?</div>
-        <div className="mt-10 text-2xl">
-          Have a question or want to work together? <br></br>Contact me through
+      <Container className="font-mono ml-2 mr-2 text-zinc-700">
+        <div className="text-5xl text-black text-center font-bold">Contact</div>
+        <div className="mt-10 text-2xl font-semibold text-zinc-600 md:text-center">
+          Have a question? <br></br>Contact me through
           any of the following below
         </div>
+        <Form />
         <ProfileLinks />
       </Container>
     </div>
