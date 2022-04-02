@@ -21,7 +21,7 @@ const Home = () => {
             </div>
           </div>
           <a 
-          href={Portfolio}
+          href="#portfolio"
           className="mt-10 mt-5">
             <Button
               size="large"

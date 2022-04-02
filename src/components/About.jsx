@@ -17,13 +17,13 @@ const About = () => {
           <div className="border-t-4 border-emerald-400 mt-5">
             <div className="text-zinc-400 font-semibold text-lg md:text-2xl mt-20 ">
               <div>
-                <p className="leading-9">
+                <div className="leading-9">
                   Hello my name is Olamide. I'm an aspiring Junior Front-End
                   Developer, Started coding 2016 and ever since I have invested
                   in my goal to become a Software Developer.<br></br>
                   <br></br>
                   <p> I enjoy building with codes and playing chess.</p>
-                </p>
+                </div>
                 <br></br>
                 <p>
                   I have serious passion for creating and building intuitive
@@ -49,13 +49,13 @@ const About = () => {
                     {" "}
                     <p className="underline">Technologies I'm strong with</p>
                     <div className="mt-5 mb-10">
-                      <div class="grid grid-cols-2 gap-4 md:grid-cols-2 text-lg">
+                      <div className="grid grid-cols-2 gap-4 md:grid-cols-2 text-lg">
                         <div>
                           <ArrowRightIcon
                             style={{
                               color: "lightgreen",
                             }}
-                          />{" "}
+                          />
                           Javascript (ES6+)
                         </div>
                         <div>
@@ -65,7 +65,15 @@ const About = () => {
                               color: "lightgreen",
                             }}
                           />
-                          React
+                          Reactjs
+                        </div>
+                        <div>
+                          <ArrowRightIcon
+                            style={{
+                              color: "lightgreen",
+                            }}
+                          />
+                          Nextjs
                         </div>
                         <div>
                           <ArrowRightIcon
@@ -97,7 +105,7 @@ const About = () => {
                               color: "lightgreen",
                             }}
                           />
-                          Contentful CMS
+                          Firebase
                         </div>
                       </div>
                     </div>
@@ -106,14 +114,14 @@ const About = () => {
                     {" "}
                     <p className="underline">Technologies I'm familiar with</p>
                     <div className="mt-5 mb-10">
-                      <div class="grid grid-cols-2 gap-4 md:grid-cols-2 text-lg">
+                      <div className="grid grid-cols-2 gap-4 md:grid-cols-2 text-lg">
                         <div>
                           <ArrowRightIcon
                             style={{
                               color: "lightgreen",
                             }}
-                          />{" "}
-                          TypeScript
+                          />
+                          Python
                         </div>
                         <div>
                           {" "}

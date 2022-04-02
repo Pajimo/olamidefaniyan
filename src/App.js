@@ -12,13 +12,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import { Route, Routes } from "react-router";
 import ErrorPage from './components/ErrorPage';
 import Footer from './components/Footer'
-import ReactGA from 'react-ga'
 
 // ATTENTION!!!!!!!!!!
-const location = useLocation();
-const TRACKING_ID = "UA-134622467-3"
-ReactGA.initialize(TRACKING_ID);
-ReactGA.pageview(location.pathname + location.search);
 
 function App() {
   return (
@@ -33,18 +28,18 @@ function App() {
         </Routes></div>
         <Footer />
         
-        <div class="md:fixed md:bottom-0 md:left-0 text-white md:m-5 ">
+        <div className="md:fixed md:bottom-20 md:left-0 text-white md:m-5 ">
           <div className=" flex md:flex-col space-y-6 md:visible invisible">
-            <a href="https://github.com/Pajimo" _target>
+            <a href="https://github.com/Pajimo" target="_blank">
               <GitHubIcon style={{ fontSize: 25 }} />
             </a>
             <a
               href="https://www.linkedin.com/in/olamide-faniyan-30ab7422b/"
-              _target
+              target="_blank"
             >
               <LinkedInIcon style={{ fontSize: 25 }} />
             </a>
-            <a href="mailto:faniyanolamide@gmail.com" _target>
+            <a href="mailto:faniyanolamide@gmail.com"target="_blank">
               <EmailIcon style={{ fontSize: 25 }} />
             </a>
           </div>

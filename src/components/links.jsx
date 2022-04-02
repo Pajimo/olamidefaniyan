@@ -5,13 +5,13 @@ import EmailIcon from "@mui/icons-material/Email";
 const ProfileLinks = () => {
   return (
     <div className="flex justify-center mt-10 space-x-6 text-green-400">
-      <a href="https://github.com/Pajimo" _target>
+      <a href="https://github.com/Pajimo" target="_blank">
         <GitHubIcon style={{ fontSize: 60 }} />
       </a>
-      <a href="https://www.linkedin.com/in/olamide-faniyan-30ab7422b/" _target>
+      <a href="https://www.linkedin.com/in/olamide-faniyan-30ab7422b/"target="_blank">
         <LinkedInIcon style={{ fontSize: 60 }} />
       </a>
-      <a href="mailto:faniyanolamide@gmail.com" _target>
+      <a href="mailto:faniyanolamide@gmail.com" target="_blank">
         <EmailIcon style={{ fontSize: 60 }} />
       </a>
     </div>
