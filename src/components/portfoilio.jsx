@@ -55,7 +55,7 @@ const Portfolio = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex font-semibold pt-10 text-white">
+                  <div className="md:flex font-semibold pt-10 text-white">
                       <div>
                         <a href={site} target="_blank" className="space-x-5 mr-5">
                           {" "}
