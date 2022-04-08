@@ -18,7 +18,7 @@ const Portfolio = () => {
           return (
             <div key={id}>
               <div className=" md:h-96 md:flex md:flex-row items-center mb-10 bg-slate-50 shadow-2xl text-black">
-                <img src={image} className="md:w-1/2 h-full object-contain md:object-cover" />
+                <img src={image} className="md:w-1/2 h-1/2 md:h-full object-contain md:object-cover" />
                 <div className=" md:h-60 p-5 w-full">
                   <div className="mb-5 space-x-5">
                     <p className=" text-2xl font-bold">{title}</p>
