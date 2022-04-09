@@ -20,6 +20,15 @@ export const data = [
   },
   {
     id: 3,
+    image: "https://res.cloudinary.com/pajimo/image/upload/v1649502357/advice-tracker.png",
+    title: "Advice Tracker",
+    desc:"",
+    stack: ["React.js", "Firebase", "Tailwind CSS"],
+    site: "https://advice-tracker.web.app/",
+    git: "https://github.com/Pajimo/Advice-Tracker"
+  },
+  {
+    id: 4,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684925/animazone.png",
     title: "Animazone for wild animals",
@@ -29,7 +38,7 @@ export const data = [
     git: "https://github.com/Pajimo/animazone-react-graphql",
   },
   {
-    id: 4,
+    id: 5,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684929/zillow-clone.png",
     title: "Zillow-homepage Clone",
@@ -39,7 +48,7 @@ export const data = [
     git: "https://github.com/Pajimo/Zillow-homepage-clone-React",
   },
   {
-    id: 5,
+    id: 6,
     image:
       "https://res.cloudinary.com/pajimo/image/upload/v1643684923/mighty-restaurant.png",
     title: "A restaurnt menu website",
