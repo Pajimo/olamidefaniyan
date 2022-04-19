@@ -14,7 +14,7 @@ const Home = () => {
               Olamide Faniyan
             </div>
             <div className="md:text-5xl text-4xl pt-2 font-bold text-zinc-500">
-              I build <i>inviolable</i> websites{" "}
+              I build <i>durable</i> and <i>user-friendly</i> websites{" "}
             </div>
             <div className="md:text-2xl text-slate-500 text-lg pt-5 mt-20 mb-5">
               I'm a Front End Developer{" "}
