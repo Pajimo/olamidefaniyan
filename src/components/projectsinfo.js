@@ -11,10 +11,10 @@ export const data = [
   },
   {
     id: 2,
-    image: "https://res.cloudinary.com/pajimo/image/upload/v1646546933/mighty-url.png",
+    image: "https://res.cloudinary.com/pajimo/image/upload/v1650411665/url2.png",
     title: "A URL Shortner",
     desc:"",
-    stack: ["React.js", "Firebase", "Tailwind CSS"],
+    stack: ["React.js & Vitejs", "Firebase", "Tailwind CSS"],
     site: "https://mighty-url-shortner.web.app",
     git: "https://github.com/Pajimo/mighty-url"
   },
