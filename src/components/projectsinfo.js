@@ -30,12 +30,12 @@ export const data = [
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/pajimo/image/upload/v1643684925/animazone.png",
-    title: "Animazone for wild animals",
+      "https://res.cloudinary.com/pajimo/image/upload/v1650412109/remoteLandingPage.png",
+    title: "Landing pages",
     desc: "",
-    stack: ["Reactjs ", "Apollo-client(GraphQL) ", "Apollo-server(GraphQL)"],
-    site: "https://animazon-wild-animals.netlify.app/",
-    git: "https://github.com/Pajimo/animazone-react-graphql",
+    stack: ["Reactjs ", "Netlify ", "TailwindCSS"],
+    site: "https://fem-dropdown-project1.netlify.app/",
+    git: "https://github.com/Pajimo/FEM-dropdown-navigation",
   },
   {
     id: 5,
@@ -56,6 +56,16 @@ export const data = [
     stack: ["Reactjs ", "Api ", "CSS"],
     site: "https://mighty-restaurant.netlify.app/",
     git: "https://github.com/Pajimo/restaurant-menu-react",
+  },
+   {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/pajimo/image/upload/v1643684925/animazone.png",
+    title: "Animazone for wild animals",
+    desc: "",
+    stack: ["Reactjs ", "Apollo-client(GraphQL) ", "Apollo-server(GraphQL)"],
+    site: "https://animazon-wild-animals.netlify.app/",
+    git: "https://github.com/Pajimo/animazone-react-graphql",
   },
 ];
 
