@@ -33,21 +33,6 @@ const About = () => {
                   dynamic user experiences
                 </p>
                 <div className="mt-10">
-                  <a href={cv} download>
-                    <Button
-                      size="large"
-                      variant="outlined"
-                      style={{
-                        color: "black",
-                        borderColor: "black",
-                        borderWidth: 3,
-                        width: 200,
-                        height: 70,
-                      }}
-                    >
-                      Download my CV{" "}
-                    </Button>
-                  </a>
                   <div className="mt-10">
                     {" "}
                     <p className="underline">Technologies I'm strong with</p>
