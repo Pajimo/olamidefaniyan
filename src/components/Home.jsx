@@ -17,7 +17,7 @@ const Home = () => {
               I build <i>user-friendly</i> applications{" "}
             </div>
             <div className="md:text-2xl text-slate-500 text-lg pt-5 mt-20 mb-5">
-              I'm a Front End Developer / Mobile Application Developer{" "}
+              I'm a Front End Developer - Mobile Application Developer{" "}
             </div>
           </div>
           <a 
