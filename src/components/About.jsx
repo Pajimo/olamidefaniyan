@@ -7,6 +7,8 @@ import profilePicture from "../assets/profile.jpg";
 import cv from "../documents/Olamide Faniyan_CV.pdf";
 
 const About = () => {
+  
+  const skils = ["TypeScript", "React", "JavaScript", "Nextjs", "React Native", "Expo", "TailwindCSS", "Firebase", "Redux & Redux-toolkit", "Git/GitHub"]
   return (
     <div className="ml-2 mr-2">
       <Container className="font-mono">
@@ -18,11 +20,8 @@ const About = () => {
             <div className="text-zinc-600 font-semibold text-lg md:text-2xl mt-20 ">
               <div>
                 <div className="leading-9">
-                I am a front end developer with thorough knowledge of React, I have a created projects to showcase my react and 
-                web development skills, I am currently searching for a junior front end role.<br></br> <br></br> I am also interested in React Native for mobile development. 
-
-                I am really passionate about tech, which is why I have the determination to learn as much as possible 
-                and develop myself technically as well as my soft skills.
+                I am a software developer with 2 years of professional experience building front end web applications and mobile applications. I studied computer science in my undergraduate degree and I graduated with a second class upper (2.1). <br></br> I am well versed in modern technologies and I learn very fast and very well. I worked with a software development agency which allowed me to take on projects of different sizes, tech stack, timeline, and I have been able to deliver exceptionally.
+    I am always looking for a reason to develop and improve myself, so I am always learning new stack, new problem solving method.<br></br> <br></br> 
                 <br></br>
                   <br></br>
                   <p> I enjoy building with codes and playing chess.</p>
@@ -38,63 +37,16 @@ const About = () => {
                     <p className="underline">Technologies I'm strong with</p>
                     <div className="mt-5 mb-10">
                       <div className="grid grid-cols-2 gap-4 md:grid-cols-2 text-lg">
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Javascript (ES6+)
-                        </div>
-                        <div>
+                        {skills.map((item) =>                         <div>
                           {" "}
                           <ArrowRightIcon
                             style={{
                               color: "black",
                             }}
                           />
-                          Reactjs
+{item}
                         </div>
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Nextjs
-                        </div>
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Tailwind CSS
-                        </div>
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Material UI
-                        </div>
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Git / GitHub
-                        </div>
-                        <div>
-                          <ArrowRightIcon
-                            style={{
-                              color: "black",
-                            }}
-                          />
-                          Firebase
-                        </div>
+)
                       </div>
                     </div>
                   </div>
@@ -110,6 +62,14 @@ const About = () => {
                             }}
                           />
                           Python
+                        </div>
+<div>
+                          <ArrowRightIcon
+                            style={{
+                              color: "black",
+                            }}
+                          />
+                          Node js
                         </div>
                         <div>
                           {" "}
